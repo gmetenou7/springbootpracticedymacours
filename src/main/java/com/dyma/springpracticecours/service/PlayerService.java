@@ -44,7 +44,6 @@ public class PlayerService {
         return players;
     }
 
-
     /*list le joueur en fonction du lastname*/
     public Player getPlayerByLastName(String lastName) {
 
@@ -60,7 +59,6 @@ public class PlayerService {
                 new Rank(player.get().getRank(), player.get().getPoints())
         );
     }
-
 
     /*creer un nouveau joueur*/
    public Player createPlayer(PlayerToSave playerToSave) {
@@ -83,13 +81,32 @@ public class PlayerService {
    }
 
    /*update un nouveau joueur*/
-   public PlayerToSave updatePlayer(PlayerToSave player) {
-      return player;
+   public Player updatePlayer(PlayerToSave playerToSave, String lastName) {
+
+       Optional<PlayerEntity> player = playerRepository.findByLastNameIgnoreCase(lastName);
+       if (player.isEmpty()) {
+           throw new ResourceNotFoundException("Joueur introuvable avec le nom de famille : " +lastName);
+       }
+
+       player.get().setLastName(playerToSave.lastName());
+       player.get().setFirstName(playerToSave.firstName());
+       player.get().setBirthDate(playerToSave.birthDate());
+       player.get().setPoints(playerToSave.points());
+       playerRepository.save(player.get());
+
+       return getPlayerByLastName(playerToSave.lastName());
    }
 
 
    public String deletePlayer(String lastName) {
-       return lastName;
+       Optional<PlayerEntity> player = playerRepository.findByLastNameIgnoreCase(lastName);
+       if (player.isEmpty()) {
+           throw new ResourceNotFoundException("Joueur introuvable avec le nom de famille : " +lastName);
+       }
+
+       playerRepository.delete(player.get());
+
+       return "Le joueur avec le nom de famille '" + lastName + "' a été supprimé avec succès.";
    }
 
 

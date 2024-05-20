@@ -77,8 +77,11 @@ public class PlayerController {
             @ApiResponse(responseCode = "400", description = "Bad Request : La syntaxe de la requête est erronée.",
                     content = {@Content(mediaType = "application/json",
                             schema = @Schema(implementation = Error.class)
-                    )}
-            )
+                    )}),
+            @ApiResponse(responseCode = "500", description = "Bad Request : Une erreur interne du serveur s'est produite.",
+                    content = {@Content(mediaType = "application/json",
+                            schema = @Schema(implementation = Error.class)
+                    )})
     })
     @PostMapping
     public Player createPlayer(@Valid @RequestBody PlayerToSave player) {
@@ -105,8 +108,8 @@ public class PlayerController {
             )
     })
     @PutMapping("{lastName}")
-    public PlayerToSave updatePlayer(@Valid @RequestBody PlayerToSave player, @PathVariable("lastName") String lastName) {
-        return playerService.updatePlayer(player);
+    public Player updatePlayer(@Valid @RequestBody PlayerToSave player, @PathVariable("lastName") String lastName) {
+        return playerService.updatePlayer(player, lastName);
     }
 
 

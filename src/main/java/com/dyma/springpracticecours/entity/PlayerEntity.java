@@ -32,7 +32,8 @@ public class PlayerEntity {
     public PlayerEntity() {
     }
 
-    public PlayerEntity(String lastName, String firstName, Date birthDate, Integer points, Integer rank) {
+    public PlayerEntity(Long id, String lastName, String firstName, Date birthDate, Integer points, Integer rank) {
+        this.id = id;
         this.lastName = lastName;
         this.firstName = firstName;
         this.birthDate = birthDate;

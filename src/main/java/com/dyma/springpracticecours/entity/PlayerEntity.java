@@ -1,9 +1,9 @@
 package com.dyma.springpracticecours.entity;
 
-
 import jakarta.persistence.*;
 
-import java.util.Date;
+import java.sql.Date;
+
 
 @Entity
 @Table(name = "player", schema = "public")
@@ -29,21 +29,15 @@ public class PlayerEntity {
     @Column(name = "rank", nullable = false)
     private Integer rank;
 
-    public PlayerEntity() {}
+    public PlayerEntity() {
+    }
+
     public PlayerEntity(String lastName, String firstName, Date birthDate, Integer points, Integer rank) {
         this.lastName = lastName;
         this.firstName = firstName;
         this.birthDate = birthDate;
         this.points = points;
         this.rank = rank;
-    }
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
     }
 
     public String getLastName() {
@@ -85,4 +79,5 @@ public class PlayerEntity {
     public void setRank(Integer rank) {
         this.rank = rank;
     }
+
 }

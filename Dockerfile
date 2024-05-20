@@ -1,36 +1,32 @@
-# Étape de construction
-# Utilise une image Maven avec JDK 17 pour construire le projet
-FROM maven:3.8.4-openjdk-17 as builder
+# Utilisez une image de base contenant Maven et JDK
+FROM maven:3.8.4-openjdk-17 AS build
 
-# Copie les fichiers de configuration Maven
-COPY pom.xml /build/pom.xml
+# Définir le répertoire de travail dans le conteneur
+WORKDIR /app
 
-# Copie les sources de l'application
-COPY src /build/src
+# Copier les fichiers de projet Maven dans le conteneur
+COPY pom.xml .
 
-# Définit le répertoire de travail pour toutes les commandes suivantes
-WORKDIR /build
-# Pré-téléchargement des dépendances pour améliorer l'utilisation du cache
-RUN mvn dependency:go-offline
+# Télécharger les dépendances de Maven (pour les mettre en cache)
+RUN mvn dependency:go-offline -B
 
-# Construit l'application et crée le fichier .jar dans le dossier target
-RUN mvn clean package
+# Copier le reste des fichiers du projet
+COPY src ./src
 
-# Étape de l'exécution
-# Utilise l'image de base JDK 17 Alpine pour l'exécution
+# Construire l'application
+RUN mvn clean install -DskipTests
+
+# Utiliser une image plus légère pour l'exécution
 FROM openjdk:17-jdk-alpine
 
-# Information du mainteneur
-LABEL maintainer="dev.it@dookecorporation.com"
+# Définir le répertoire de travail dans le conteneur
+WORKDIR /app
 
-# Ajoute un volume (optionnel, peut être omis si non nécessaire)
-VOLUME /tmp
+# Copier le jar construit depuis l'étape précédente
+COPY --from=build /app/target/*.jar app.jar
 
-# Expose le port sur lequel l'application s'exécute
+# Exposer le port sur lequel l'application fonctionne
 EXPOSE 8080
 
-# Copie le fichier .jar du constructeur à l'image
-COPY --from=builder /build/target/*.jar /cours/backend_dooke_erp.jar
-
-# Point d'entrée pour démarrer l'application Java
-ENTRYPOINT ["java","-jar","/cours/backend_dooke_erp.jar"]
+# Commande pour exécuter l'application
+ENTRYPOINT ["java", "-jar", "app.jar"]

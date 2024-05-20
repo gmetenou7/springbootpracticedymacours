@@ -1,0 +1,883 @@
+time="2024-05-20T09:26:40+02:00" level=warning msg="/Users/gildasmetenou/Desktop/springpracticecours/docker-compose.yaml: `version` is obsolete"
+ pgadmin Pulling 
+ postgres Pulling 
+ 4abcf2066143 Already exists 
+ 6fca87b61968 Pulling fs layer 
+ 46712147a894 Pulling fs layer 
+ 3bf015b2b4aa Pulling fs layer 
+ c338222ce5f6 Pulling fs layer 
+ c296b6d7ed3e Pulling fs layer 
+ 4b22717c2693 Pulling fs layer 
+ 4edd37ccd8cd Pulling fs layer 
+ 95eb7eda23b4 Pulling fs layer 
+ 7011580d83bc Pulling fs layer 
+ 7b6590e68088 Pulling fs layer 
+ 83cd4814ba13 Pulling fs layer 
+ ad209e34b1fd Pulling fs layer 
+ 177a34239293 Pulling fs layer 
+ d3469f86250a Pulling fs layer 
+ bc2954fc5dbe Pulling fs layer 
+ c296b6d7ed3e Waiting 
+ 4b22717c2693 Waiting 
+ 4edd37ccd8cd Waiting 
+ 177a34239293 Waiting 
+ ad209e34b1fd Waiting 
+ d3469f86250a Waiting 
+ bc2954fc5dbe Waiting 
+ 83cd4814ba13 Waiting 
+ 7b6590e68088 Waiting 
+ 7011580d83bc Waiting 
+ 09f376ebb190 Already exists 
+ 0073ad29fa0d Pulling fs layer 
+ 0de26d616f1f Pulling fs layer 
+ bf9ac1916a4f Pulling fs layer 
+ 86761c4a52a0 Pulling fs layer 
+ f7b2865caf71 Pulling fs layer 
+ b34d7669106d Pulling fs layer 
+ b24b834dff71 Pulling fs layer 
+ 34a221fe6652 Pulling fs layer 
+ 3373f066ae4e Pulling fs layer 
+ 24f474a1424c Pulling fs layer 
+ f161dc7c149b Pulling fs layer 
+ 946b6e741b0e Pulling fs layer 
+ efb99a6e3550 Pulling fs layer 
+ 34a221fe6652 Waiting 
+ 3373f066ae4e Waiting 
+ bf9ac1916a4f Waiting 
+ 24f474a1424c Waiting 
+ f161dc7c149b Waiting 
+ 86761c4a52a0 Waiting 
+ 946b6e741b0e Waiting 
+ f7b2865caf71 Waiting 
+ efb99a6e3550 Waiting 
+ 0073ad29fa0d Waiting 
+ 0de26d616f1f Waiting 
+ b34d7669106d Waiting 
+ b24b834dff71 Waiting 
+ 3bf015b2b4aa Downloading [>                                                  ]  2.086kB/165.8kB
+ 46712147a894 Downloading [>                                                  ]  32.03kB/3.13MB
+ 3bf015b2b4aa Downloading [==================================================>]  165.8kB/165.8kB
+ 3bf015b2b4aa Verifying Checksum 
+ 3bf015b2b4aa Download complete 
+ 6fca87b61968 Downloading [>                                                  ]  540.7kB/94.66MB
+ 46712147a894 Downloading [===============================>                   ]  1.977MB/3.13MB
+ 6fca87b61968 Downloading [==>                                                ]  4.324MB/94.66MB
+ 46712147a894 Download complete 
+ 6fca87b61968 Downloading [====>                                              ]  9.177MB/94.66MB
+ 6fca87b61968 Downloading [=======>                                           ]  14.56MB/94.66MB
+ c338222ce5f6 Downloading [>                                                  ]  4.824kB/384.9kB
+ 6fca87b61968 Downloading [==========>                                        ]  20.49MB/94.66MB
+ c338222ce5f6 Downloading [==================================================>]  384.9kB/384.9kB
+ c338222ce5f6 Download complete 
+ 6fca87b61968 Downloading [=============>                                     ]  26.41MB/94.66MB
+ 6fca87b61968 Downloading [=================>                                 ]  32.86MB/94.66MB
+ 6fca87b61968 Downloading [====================>                              ]  39.32MB/94.66MB
+ c296b6d7ed3e Downloading [=>                                                 ]  1.369kB/65.55kB
+ c296b6d7ed3e Verifying Checksum 
+ c296b6d7ed3e Download complete 
+ 6fca87b61968 Downloading [=======================>                           ]  45.24MB/94.66MB
+ 6fca87b61968 Downloading [===========================>                       ]  51.16MB/94.66MB
+ 4b22717c2693 Downloading [==================================================>]     227B/227B
+ 4b22717c2693 Verifying Checksum 
+ 4b22717c2693 Download complete 
+ 6fca87b61968 Downloading [==============================>                    ]  57.64MB/94.66MB
+ 6fca87b61968 Downloading [=================================>                 ]  63.54MB/94.66MB
+ 6fca87b61968 Downloading [====================================>              ]  69.45MB/94.66MB
+ 6fca87b61968 Downloading [========================================>          ]  75.91MB/94.66MB
+ 4edd37ccd8cd Downloading [==================================================>]     104B/104B
+ 4edd37ccd8cd Verifying Checksum 
+ 4edd37ccd8cd Download complete 
+ 6fca87b61968 Downloading [===========================================>       ]  82.37MB/94.66MB
+ 6fca87b61968 Downloading [==============================================>    ]  88.86MB/94.66MB
+ 95eb7eda23b4 Downloading [>                                                  ]  85.77kB/8.325MB
+ 6fca87b61968 Verifying Checksum 
+ 6fca87b61968 Download complete 
+ 95eb7eda23b4 Downloading [=======>                                           ]  1.322MB/8.325MB
+ 6fca87b61968 Extracting [>                                                  ]  557.1kB/94.66MB
+ 95eb7eda23b4 Downloading [======================================>            ]  6.482MB/8.325MB
+ 95eb7eda23b4 Download complete 
+ 7011580d83bc Downloading [>                                                  ]  281.8kB/28.02MB
+ 6fca87b61968 Extracting [==>                                                ]  4.456MB/94.66MB
+ 7011580d83bc Downloading [==========>                                        ]  5.827MB/28.02MB
+ 7b6590e68088 Download complete 
+ 7011580d83bc Downloading [====================>                              ]  11.42MB/28.02MB
+ 6fca87b61968 Extracting [==>                                                ]  5.014MB/94.66MB
+ 7011580d83bc Downloading [===============================>                   ]  17.55MB/28.02MB
+ 83cd4814ba13 Downloading [==================================================>]     203B/203B
+ 83cd4814ba13 Verifying Checksum 
+ 83cd4814ba13 Download complete 
+ 7011580d83bc Downloading [==========================================>        ]  23.71MB/28.02MB
+ 6fca87b61968 Extracting [==>                                                ]  5.571MB/94.66MB
+ 7011580d83bc Download complete 
+ ad209e34b1fd Downloading [=================>                                 ]     719B/2.059kB
+ ad209e34b1fd Downloading [==================================================>]  2.059kB/2.059kB
+ ad209e34b1fd Verifying Checksum 
+ ad209e34b1fd Download complete 
+ 6fca87b61968 Extracting [===>                                               ]  6.128MB/94.66MB
+ 6fca87b61968 Extracting [===>                                               ]  6.685MB/94.66MB
+ 177a34239293 Downloading [=============================================>     ]     720B/787B
+ 177a34239293 Downloading [==================================================>]     787B/787B
+ 177a34239293 Verifying Checksum 
+ 177a34239293 Download complete 
+ d3469f86250a Downloading [===>                                               ]     718B/10.88kB
+ d3469f86250a Downloading [==================================================>]  10.88kB/10.88kB
+ d3469f86250a Verifying Checksum 
+ d3469f86250a Download complete 
+ 6fca87b61968 Extracting [===>                                               ]  7.242MB/94.66MB
+ bc2954fc5dbe Downloading [>                                                  ]  245.8kB/24.22MB
+ 6fca87b61968 Extracting [====>                                              ]  7.799MB/94.66MB
+ bc2954fc5dbe Downloading [==========>                                        ]  4.946MB/24.22MB
+ 0073ad29fa0d Downloading [==============================>                    ]     720B/1.164kB
+ 0073ad29fa0d Downloading [==================================================>]  1.164kB/1.164kB
+ 0073ad29fa0d Verifying Checksum 
+ 0073ad29fa0d Download complete 
+ 0073ad29fa0d Extracting [==================================================>]  1.164kB/1.164kB
+ 0073ad29fa0d Extracting [==================================================>]  1.164kB/1.164kB
+ 0073ad29fa0d Pull complete 
+ bc2954fc5dbe Downloading [=======================>                           ]  11.62MB/24.22MB
+ 6fca87b61968 Extracting [====>                                              ]  8.356MB/94.66MB
+ bc2954fc5dbe Downloading [===================================>               ]  17.34MB/24.22MB
+ 0de26d616f1f Downloading [>                                                  ]  46.46kB/4.534MB
+ 6fca87b61968 Extracting [====>                                              ]  8.913MB/94.66MB
+ bc2954fc5dbe Downloading [===============================================>   ]  23.02MB/24.22MB
+ 6fca87b61968 Extracting [=====>                                             ]   9.47MB/94.66MB
+ 0de26d616f1f Downloading [=======>                                           ]  655.4kB/4.534MB
+ bc2954fc5dbe Download complete 
+ 0de26d616f1f Download complete 
+ 0de26d616f1f Extracting [>                                                  ]  65.54kB/4.534MB
+ bf9ac1916a4f Downloading [>                                                  ]  15.06kB/1.45MB
+ 6fca87b61968 Extracting [=====>                                             ]  10.58MB/94.66MB
+ 0de26d616f1f Extracting [=========================================>         ]  3.801MB/4.534MB
+ bf9ac1916a4f Verifying Checksum 
+ bf9ac1916a4f Download complete 
+ 0de26d616f1f Extracting [==================================================>]  4.534MB/4.534MB
+ 0de26d616f1f Pull complete 
+ bf9ac1916a4f Extracting [=>                                                 ]  32.77kB/1.45MB
+ bf9ac1916a4f Extracting [==================================================>]   1.45MB/1.45MB
+ bf9ac1916a4f Pull complete 
+ 86761c4a52a0 Downloading [>                                                  ]  82.45kB/8.069MB
+ 6fca87b61968 Extracting [======>                                            ]   11.7MB/94.66MB
+ f7b2865caf71 Downloading [>                                                  ]  12.32kB/1.196MB
+ 86761c4a52a0 Downloading [=======================>                           ]  3.803MB/8.069MB
+ f7b2865caf71 Downloading [===============================================>   ]  1.126MB/1.196MB
+ f7b2865caf71 Verifying Checksum 
+ f7b2865caf71 Download complete 
+ 86761c4a52a0 Verifying Checksum 
+ 86761c4a52a0 Download complete 
+ 86761c4a52a0 Extracting [>                                                  ]   98.3kB/8.069MB
+ b34d7669106d Downloading [==================================================>]     116B/116B
+ b34d7669106d Verifying Checksum 
+ b34d7669106d Download complete 
+ 6fca87b61968 Extracting [======>                                            ]  12.81MB/94.66MB
+ 86761c4a52a0 Extracting [==================>                                ]  2.949MB/8.069MB
+ 6fca87b61968 Extracting [=======>                                           ]  13.37MB/94.66MB
+ 86761c4a52a0 Extracting [=========================>                         ]  4.129MB/8.069MB
+ 6fca87b61968 Extracting [=======>                                           ]  15.04MB/94.66MB
+ 86761c4a52a0 Extracting [===============================>                   ]  5.014MB/8.069MB
+ b24b834dff71 Downloading [===========>                                       ]     720B/3.142kB
+ b24b834dff71 Downloading [==================================================>]  3.142kB/3.142kB
+ b24b834dff71 Verifying Checksum 
+ b24b834dff71 Download complete 
+ 34a221fe6652 Downloading [>                                                  ]  527.6kB/104.5MB
+ 3373f066ae4e Downloading [===>                                               ]     720B/9.344kB
+ 3373f066ae4e Downloading [==================================================>]  9.344kB/9.344kB
+ 3373f066ae4e Verifying Checksum 
+ 3373f066ae4e Download complete 
+ 86761c4a52a0 Extracting [=====================================>             ]  5.997MB/8.069MB
+ 6fca87b61968 Extracting [========>                                          ]  16.15MB/94.66MB
+ 34a221fe6652 Downloading [==>                                                ]  4.837MB/104.5MB
+ 86761c4a52a0 Extracting [================================================>  ]  7.766MB/8.069MB
+ 86761c4a52a0 Extracting [==================================================>]  8.069MB/8.069MB
+ 6fca87b61968 Extracting [=========>                                         ]  17.83MB/94.66MB
+ 86761c4a52a0 Pull complete 
+ f7b2865caf71 Extracting [=>                                                 ]  32.77kB/1.196MB
+ 34a221fe6652 Downloading [=====>                                             ]  12.33MB/104.5MB
+ f7b2865caf71 Extracting [==================================================>]  1.196MB/1.196MB
+ f7b2865caf71 Extracting [==================================================>]  1.196MB/1.196MB
+ 6fca87b61968 Extracting [==========>                                        ]   19.5MB/94.66MB
+ f7b2865caf71 Pull complete 
+ b34d7669106d Extracting [==================================================>]     116B/116B
+ b34d7669106d Extracting [==================================================>]     116B/116B
+ b34d7669106d Pull complete 
+ b24b834dff71 Extracting [==================================================>]  3.142kB/3.142kB
+ b24b834dff71 Extracting [==================================================>]  3.142kB/3.142kB
+ b24b834dff71 Pull complete 
+ 34a221fe6652 Downloading [========>                                          ]  18.23MB/104.5MB
+ 6fca87b61968 Extracting [===========>                                       ]  21.17MB/94.66MB
+ 34a221fe6652 Downloading [============>                                      ]  25.23MB/104.5MB
+ 6fca87b61968 Extracting [============>                                      ]  22.84MB/94.66MB
+ 34a221fe6652 Downloading [===============>                                   ]  31.68MB/104.5MB
+ f161dc7c149b Downloading [==================================================>]     168B/168B
+ f161dc7c149b Verifying Checksum 
+ f161dc7c149b Download complete 
+ 34a221fe6652 Downloading [=================>                                 ]   37.6MB/104.5MB
+ 24f474a1424c Downloading [==================================================>]     128B/128B
+ 24f474a1424c Verifying Checksum 
+ 24f474a1424c Download complete 
+ 6fca87b61968 Extracting [=============>                                     ]  25.07MB/94.66MB
+ 34a221fe6652 Downloading [=====================>                             ]  44.06MB/104.5MB
+ 34a221fe6652 Downloading [========================>                          ]  50.53MB/104.5MB
+ 6fca87b61968 Extracting [==============>                                    ]  26.74MB/94.66MB
+ 34a221fe6652 Downloading [==========================>                        ]  56.45MB/104.5MB
+ 6fca87b61968 Extracting [==============>                                    ]  27.85MB/94.66MB
+ 34a221fe6652 Downloading [=============================>                     ]  62.35MB/104.5MB
+ 6fca87b61968 Extracting [===============>                                   ]  29.52MB/94.66MB
+ 34a221fe6652 Downloading [=================================>                 ]  69.36MB/104.5MB
+ 6fca87b61968 Extracting [================>                                  ]   31.2MB/94.66MB
+ efb99a6e3550 Downloading [==================================================>]     184B/184B
+ efb99a6e3550 Verifying Checksum 
+ efb99a6e3550 Download complete 
+ 946b6e741b0e Downloading [======>                                            ]     720B/5.414kB
+ 946b6e741b0e Downloading [==================================================>]  5.414kB/5.414kB
+ 946b6e741b0e Verifying Checksum 
+ 946b6e741b0e Download complete 
+ 34a221fe6652 Downloading [====================================>              ]  76.33MB/104.5MB
+ 6fca87b61968 Extracting [=================>                                 ]  32.31MB/94.66MB
+ 34a221fe6652 Downloading [=======================================>           ]  82.23MB/104.5MB
+ 6fca87b61968 Extracting [=================>                                 ]  33.42MB/94.66MB
+ 34a221fe6652 Downloading [==========================================>        ]  89.23MB/104.5MB
+ 6fca87b61968 Extracting [==================>                                ]  35.09MB/94.66MB
+ 34a221fe6652 Downloading [=============================================>     ]  95.16MB/104.5MB
+ 34a221fe6652 Downloading [================================================>  ]  101.6MB/104.5MB
+ 6fca87b61968 Extracting [===================>                               ]  36.77MB/94.66MB
+ 34a221fe6652 Verifying Checksum 
+ 34a221fe6652 Download complete 
+ 34a221fe6652 Extracting [>                                                  ]  557.1kB/104.5MB
+ 6fca87b61968 Extracting [====================>                              ]  37.88MB/94.66MB
+ 34a221fe6652 Extracting [=>                                                 ]  3.899MB/104.5MB
+ 6fca87b61968 Extracting [=====================>                             ]  40.67MB/94.66MB
+ 34a221fe6652 Extracting [===>                                               ]  7.242MB/104.5MB
+ 6fca87b61968 Extracting [======================>                            ]  42.89MB/94.66MB
+ 34a221fe6652 Extracting [====>                                              ]  8.913MB/104.5MB
+ 6fca87b61968 Extracting [=======================>                           ]  44.01MB/94.66MB
+ 34a221fe6652 Extracting [=====>                                             ]   11.7MB/104.5MB
+ 34a221fe6652 Extracting [======>                                            ]  14.48MB/104.5MB
+ 6fca87b61968 Extracting [=======================>                           ]  45.12MB/94.66MB
+ 34a221fe6652 Extracting [=======>                                           ]  16.71MB/104.5MB
+ 6fca87b61968 Extracting [========================>                          ]  45.68MB/94.66MB
+ 34a221fe6652 Extracting [=========>                                         ]  20.05MB/104.5MB
+ 6fca87b61968 Extracting [========================>                          ]  46.24MB/94.66MB
+ 34a221fe6652 Extracting [==========>                                        ]  22.84MB/104.5MB
+ 6fca87b61968 Extracting [========================>                          ]  46.79MB/94.66MB
+ 34a221fe6652 Extracting [============>                                      ]  25.62MB/104.5MB
+ 6fca87b61968 Extracting [=========================>                         ]  47.35MB/94.66MB
+ 34a221fe6652 Extracting [==============>                                    ]   31.2MB/104.5MB
+ 34a221fe6652 Extracting [=================>                                 ]  36.21MB/104.5MB
+ 6fca87b61968 Extracting [=========================>                         ]  49.02MB/94.66MB
+ 34a221fe6652 Extracting [===================>                               ]  40.67MB/104.5MB
+ 6fca87b61968 Extracting [==========================>                        ]  50.14MB/94.66MB
+ 34a221fe6652 Extracting [=====================>                             ]  45.68MB/104.5MB
+ 6fca87b61968 Extracting [===========================>                       ]  51.25MB/94.66MB
+ 34a221fe6652 Extracting [=======================>                           ]  49.02MB/104.5MB
+ 6fca87b61968 Extracting [============================>                      ]  53.48MB/94.66MB
+ 34a221fe6652 Extracting [=======================>                           ]  50.14MB/104.5MB
+ 6fca87b61968 Extracting [=============================>                     ]  55.15MB/94.66MB
+ 34a221fe6652 Extracting [=========================>                         ]  52.36MB/104.5MB
+ 6fca87b61968 Extracting [==============================>                    ]  56.82MB/94.66MB
+ 34a221fe6652 Extracting [==========================>                        ]  54.59MB/104.5MB
+ 6fca87b61968 Extracting [==============================>                    ]  58.49MB/94.66MB
+ 34a221fe6652 Extracting [===========================>                       ]  57.38MB/104.5MB
+ 34a221fe6652 Extracting [==============================>                    ]  62.95MB/104.5MB
+ 6fca87b61968 Extracting [===============================>                   ]  60.16MB/94.66MB
+ 34a221fe6652 Extracting [===============================>                   ]  66.85MB/104.5MB
+ 6fca87b61968 Extracting [================================>                  ]  61.83MB/94.66MB
+ 34a221fe6652 Extracting [=================================>                 ]  70.19MB/104.5MB
+ 6fca87b61968 Extracting [==================================>                ]  65.18MB/94.66MB
+ 34a221fe6652 Extracting [===================================>               ]  74.09MB/104.5MB
+ 6fca87b61968 Extracting [===================================>               ]  66.29MB/94.66MB
+ 34a221fe6652 Extracting [=====================================>             ]  78.54MB/104.5MB
+ 6fca87b61968 Extracting [===================================>               ]  66.85MB/94.66MB
+ 34a221fe6652 Extracting [========================================>          ]  84.12MB/104.5MB
+ 6fca87b61968 Extracting [===================================>               ]   67.4MB/94.66MB
+ 34a221fe6652 Extracting [==========================================>        ]  89.13MB/104.5MB
+ 6fca87b61968 Extracting [====================================>              ]  68.52MB/94.66MB
+ 34a221fe6652 Extracting [===========================================>       ]   90.8MB/104.5MB
+ 6fca87b61968 Extracting [====================================>              ]  69.63MB/94.66MB
+ 34a221fe6652 Extracting [============================================>      ]  93.59MB/104.5MB
+ 6fca87b61968 Extracting [=====================================>             ]  70.75MB/94.66MB
+ 34a221fe6652 Extracting [=============================================>     ]   94.7MB/104.5MB
+ 6fca87b61968 Extracting [=====================================>             ]  71.86MB/94.66MB
+ 34a221fe6652 Extracting [==============================================>    ]  96.93MB/104.5MB
+ 6fca87b61968 Extracting [======================================>            ]  72.97MB/94.66MB
+ 34a221fe6652 Extracting [===============================================>   ]  99.16MB/104.5MB
+ 6fca87b61968 Extracting [=======================================>           ]  74.09MB/94.66MB
+ 34a221fe6652 Extracting [===============================================>   ]  100.3MB/104.5MB
+ 6fca87b61968 Extracting [========================================>          ]  76.32MB/94.66MB
+ 6fca87b61968 Extracting [========================================>          ]  76.87MB/94.66MB
+ 34a221fe6652 Extracting [================================================>  ]  101.4MB/104.5MB
+ 6fca87b61968 Extracting [=========================================>         ]  77.99MB/94.66MB
+ 6fca87b61968 Extracting [=========================================>         ]   79.1MB/94.66MB
+ 34a221fe6652 Extracting [=================================================> ]  103.1MB/104.5MB
+ 6fca87b61968 Extracting [==========================================>        ]  79.66MB/94.66MB
+ 34a221fe6652 Extracting [=================================================> ]  104.2MB/104.5MB
+ 34a221fe6652 Extracting [==================================================>]  104.5MB/104.5MB
+ 6fca87b61968 Extracting [==========================================>        ]  80.22MB/94.66MB
+ 6fca87b61968 Extracting [==========================================>        ]  81.33MB/94.66MB
+ 34a221fe6652 Pull complete 
+ 3373f066ae4e Extracting [==================================================>]  9.344kB/9.344kB
+ 3373f066ae4e Extracting [==================================================>]  9.344kB/9.344kB
+ 3373f066ae4e Pull complete 
+ 24f474a1424c Extracting [==================================================>]     128B/128B
+ 24f474a1424c Extracting [==================================================>]     128B/128B
+ 24f474a1424c Pull complete 
+ f161dc7c149b Extracting [==================================================>]     168B/168B
+ f161dc7c149b Extracting [==================================================>]     168B/168B
+ f161dc7c149b Pull complete 
+ 946b6e741b0e Extracting [==================================================>]  5.414kB/5.414kB
+ 946b6e741b0e Extracting [==================================================>]  5.414kB/5.414kB
+ 946b6e741b0e Pull complete 
+ efb99a6e3550 Extracting [==================================================>]     184B/184B
+ efb99a6e3550 Extracting [==================================================>]     184B/184B
+ 6fca87b61968 Extracting [============================================>      ]  83.56MB/94.66MB
+ efb99a6e3550 Pull complete 
+ postgres Pulled 
+ 6fca87b61968 Extracting [=============================================>     ]  85.23MB/94.66MB
+ 6fca87b61968 Extracting [==============================================>    ]  87.46MB/94.66MB
+ 6fca87b61968 Extracting [==============================================>    ]  88.57MB/94.66MB
+ 6fca87b61968 Extracting [===============================================>   ]  89.69MB/94.66MB
+ 6fca87b61968 Extracting [================================================>  ]  92.47MB/94.66MB
+ 6fca87b61968 Extracting [==================================================>]  94.66MB/94.66MB
+ 6fca87b61968 Pull complete 
+ 46712147a894 Extracting [>                                                  ]  32.77kB/3.13MB
+ 46712147a894 Extracting [==================================================>]   3.13MB/3.13MB
+ 46712147a894 Pull complete 
+ 3bf015b2b4aa Extracting [=========>                                         ]  32.77kB/165.8kB
+ 3bf015b2b4aa Extracting [==================================================>]  165.8kB/165.8kB
+ 3bf015b2b4aa Extracting [==================================================>]  165.8kB/165.8kB
+ 3bf015b2b4aa Pull complete 
+ c338222ce5f6 Extracting [====>                                              ]  32.77kB/384.9kB
+ c338222ce5f6 Extracting [==================================================>]  384.9kB/384.9kB
+ c338222ce5f6 Extracting [==================================================>]  384.9kB/384.9kB
+ c338222ce5f6 Pull complete 
+ c296b6d7ed3e Extracting [========================>                          ]  32.77kB/65.55kB
+ c296b6d7ed3e Extracting [==================================================>]  65.55kB/65.55kB
+ c296b6d7ed3e Pull complete 
+ 4b22717c2693 Extracting [==================================================>]     227B/227B
+ 4b22717c2693 Extracting [==================================================>]     227B/227B
+ 4b22717c2693 Pull complete 
+ 4edd37ccd8cd Extracting [==================================================>]     104B/104B
+ 4edd37ccd8cd Extracting [==================================================>]     104B/104B
+ 4edd37ccd8cd Pull complete 
+ 95eb7eda23b4 Extracting [>                                                  ]   98.3kB/8.325MB
+ 95eb7eda23b4 Extracting [==>                                                ]  393.2kB/8.325MB
+ 95eb7eda23b4 Extracting [===>                                               ]  589.8kB/8.325MB
+ 95eb7eda23b4 Extracting [====>                                              ]  786.4kB/8.325MB
+ 95eb7eda23b4 Extracting [=====>                                             ]  884.7kB/8.325MB
+ 95eb7eda23b4 Extracting [=====>                                             ]    983kB/8.325MB
+ 95eb7eda23b4 Extracting [=======>                                           ]   1.18MB/8.325MB
+ 95eb7eda23b4 Extracting [==============>                                    ]  2.359MB/8.325MB
+ 95eb7eda23b4 Extracting [====================>                              ]  3.441MB/8.325MB
+ 95eb7eda23b4 Extracting [======================================>            ]  6.488MB/8.325MB
+ 95eb7eda23b4 Extracting [============================================>      ]  7.471MB/8.325MB
+ 95eb7eda23b4 Extracting [==================================================>]  8.325MB/8.325MB
+ 95eb7eda23b4 Pull complete 
+ 7011580d83bc Extracting [>                                                  ]  294.9kB/28.02MB
+ 7011580d83bc Extracting [============>                                      ]  6.783MB/28.02MB
+ 7011580d83bc Extracting [=======================>                           ]  12.98MB/28.02MB
+ 7011580d83bc Extracting [===================================>               ]  19.76MB/28.02MB
+ 7011580d83bc Extracting [==============================================>    ]  25.95MB/28.02MB
+ 7011580d83bc Extracting [=================================================> ]  28.02MB/28.02MB
+ 7011580d83bc Extracting [==================================================>]  28.02MB/28.02MB
+ 7011580d83bc Pull complete 
+ 7b6590e68088 Extracting [==================================================>]     211B/211B
+ 7b6590e68088 Extracting [==================================================>]     211B/211B
+ 7b6590e68088 Pull complete 
+ 83cd4814ba13 Extracting [==================================================>]     203B/203B
+ 83cd4814ba13 Extracting [==================================================>]     203B/203B
+ 83cd4814ba13 Pull complete 
+ ad209e34b1fd Extracting [==================================================>]  2.059kB/2.059kB
+ ad209e34b1fd Extracting [==================================================>]  2.059kB/2.059kB
+ ad209e34b1fd Pull complete 
+ 177a34239293 Extracting [==================================================>]     787B/787B
+ 177a34239293 Extracting [==================================================>]     787B/787B
+ 177a34239293 Pull complete 
+ d3469f86250a Extracting [==================================================>]  10.88kB/10.88kB
+ d3469f86250a Extracting [==================================================>]  10.88kB/10.88kB
+ d3469f86250a Pull complete 
+ bc2954fc5dbe Extracting [>                                                  ]  262.1kB/24.22MB
+ bc2954fc5dbe Extracting [====>                                              ]  2.097MB/24.22MB
+ bc2954fc5dbe Extracting [=============>                                     ]  6.554MB/24.22MB
+ bc2954fc5dbe Extracting [===================>                               ]  9.437MB/24.22MB
+ bc2954fc5dbe Extracting [====================>                              ]  9.961MB/24.22MB
+ bc2954fc5dbe Extracting [=============================>                     ]  14.16MB/24.22MB
+ bc2954fc5dbe Extracting [===============================>                   ]  15.47MB/24.22MB
+ bc2954fc5dbe Extracting [=================================>                 ]  16.25MB/24.22MB
+ bc2954fc5dbe Extracting [===================================>               ]  17.04MB/24.22MB
+ bc2954fc5dbe Extracting [====================================>              ]  17.83MB/24.22MB
+ bc2954fc5dbe Extracting [======================================>            ]  18.61MB/24.22MB
+ bc2954fc5dbe Extracting [========================================>          ]   19.4MB/24.22MB
+ bc2954fc5dbe Extracting [=============================================>     ]  22.02MB/24.22MB
+ bc2954fc5dbe Extracting [==============================================>    ]  22.28MB/24.22MB
+ bc2954fc5dbe Extracting [==================================================>]  24.22MB/24.22MB
+ bc2954fc5dbe Pull complete 
+ pgadmin Pulled 
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [app internal] load build definition from Dockerfile
+#1 transferring dockerfile: 924B done
+#1 DONE 0.0s
+
+#2 [app internal] load metadata for docker.io/library/maven:3.8.4-openjdk-17
+#2 ...
+
+#3 [app auth] library/maven:pull token for registry-1.docker.io
+#3 DONE 0.0s
+
+#4 [app auth] library/openjdk:pull token for registry-1.docker.io
+#4 DONE 0.0s
+
+#5 [app internal] load metadata for docker.io/library/openjdk:17-jdk-alpine
+#5 DONE 0.8s
+
+#2 [app internal] load metadata for docker.io/library/maven:3.8.4-openjdk-17
+#2 DONE 0.9s
+
+#6 [app internal] load .dockerignore
+#6 transferring context: 2B done
+#6 DONE 0.0s
+
+#7 [app build 1/6] FROM docker.io/library/maven:3.8.4-openjdk-17@sha256:7106ce47b5c226ee21bac386cb706ff9f3db7ac2f15e251e3aa491fcbfc30028
+#7 DONE 0.0s
+
+#8 [app stage-1 1/3] FROM docker.io/library/openjdk:17-jdk-alpine@sha256:4b6abae565492dbe9e7a894137c966a7485154238902f2f25e9dbd9784383d81
+#8 DONE 0.0s
+
+#9 [app internal] load build context
+#9 transferring context: 4.55kB done
+#9 DONE 0.0s
+
+#10 [app stage-1 2/3] WORKDIR /app
+#10 CACHED
+
+#11 [app build 5/6] COPY src ./src
+#11 CACHED
+
+#12 [app build 2/6] WORKDIR /app
+#12 CACHED
+
+#13 [app build 4/6] RUN mvn dependency:go-offline -B
+#13 CACHED
+
+#14 [app build 3/6] COPY pom.xml .
+#14 CACHED
+
+#15 [app build 6/6] RUN mvn clean install -DskipTests
+#15 CACHED
+
+#16 [app stage-1 3/3] COPY --from=build /app/target/*.jar app.jar
+#16 CACHED
+
+#17 [app] exporting to image
+#17 exporting layers done
+#17 writing image sha256:867ba420143ad269b844f4168700c32b734642a42c3c39eb928bc17969fc7eec done
+#17 naming to docker.io/library/springpracticecours-app done
+#17 DONE 0.0s
+ Network springpracticecours_default  Creating
+ Network springpracticecours_default  Created
+ Network springpracticecours_app-network  Creating
+ Network springpracticecours_app-network  Created
+ Volume "springpracticecours_postgres_data"  Creating
+ Volume "springpracticecours_postgres_data"  Created
+ Container postgres  Creating
+ Container pgadmin  Creating
+ Container pgadmin  Created
+ Container postgres  Created
+ Container springpracticecours-app-1  Creating
+ Container springpracticecours-app-1  Created
+Attaching to pgadmin, postgres, app-1
+postgres  | The files belonging to this database system will be owned by user "postgres".
+postgres  | This user must also own the server process.
+postgres  | 
+postgres  | The database cluster will be initialized with locale "en_US.utf8".
+postgres  | The default database encoding has accordingly been set to "UTF8".
+postgres  | The default text search configuration will be set to "english".
+postgres  | 
+postgres  | Data page checksums are disabled.
+postgres  | 
+postgres  | fixing permissions on existing directory /var/lib/postgresql/data ... ok
+postgres  | creating subdirectories ... ok
+postgres  | selecting dynamic shared memory implementation ... posix
+postgres  | selecting default max_connections ... 100
+postgres  | selecting default shared_buffers ... 128MB
+postgres  | selecting default time zone ... Etc/UTC
+postgres  | creating configuration files ... ok
+postgres  | running bootstrap script ... ok
+postgres  | performing post-bootstrap initialization ... ok
+postgres  | initdb: warning: enabling "trust" authentication for local connections
+postgres  | You can change this by editing pg_hba.conf or using the option -A, or
+postgres  | --auth-local and --auth-host, the next time you run initdb.
+postgres  | syncing data to disk ... ok
+postgres  | 
+postgres  | 
+postgres  | Success. You can now start the database server using:
+postgres  | 
+postgres  |     pg_ctl -D /var/lib/postgresql/data -l logfile start
+postgres  | 
+postgres  | waiting for server to start....2024-05-20 07:27:02.386 UTC [48] LOG:  starting PostgreSQL 13.15 (Debian 13.15-1.pgdg120+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 12.2.0-14) 12.2.0, 64-bit
+postgres  | 2024-05-20 07:27:02.388 UTC [48] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+postgres  | 2024-05-20 07:27:02.395 UTC [49] LOG:  database system was shut down at 2024-05-20 07:27:02 UTC
+postgres  | 2024-05-20 07:27:02.402 UTC [48] LOG:  database system is ready to accept connections
+postgres  |  done
+postgres  | server started
+postgres  | CREATE DATABASE
+postgres  | 
+postgres  | 
+postgres  | /usr/local/bin/docker-entrypoint.sh: running /docker-entrypoint-initdb.d/init.sql
+postgres  | DO
+postgres  | You are now connected to database "mydatabase" as user "user".
+postgres  | CREATE TABLE
+postgres  | 
+postgres  | 
+postgres  | 2024-05-20 07:27:02.826 UTC [48] LOG:  received fast shutdown request
+postgres  | waiting for server to shut down....2024-05-20 07:27:02.828 UTC [48] LOG:  aborting any active transactions
+postgres  | 2024-05-20 07:27:02.830 UTC [48] LOG:  background worker "logical replication launcher" (PID 55) exited with exit code 1
+postgres  | 2024-05-20 07:27:02.831 UTC [50] LOG:  shutting down
+postgres  | 2024-05-20 07:27:02.886 UTC [48] LOG:  database system is shut down
+postgres  |  done
+postgres  | server stopped
+postgres  | 
+postgres  | PostgreSQL init process complete; ready for start up.
+postgres  | 
+postgres  | 2024-05-20 07:27:02.958 UTC [1] LOG:  starting PostgreSQL 13.15 (Debian 13.15-1.pgdg120+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 12.2.0-14) 12.2.0, 64-bit
+postgres  | 2024-05-20 07:27:02.958 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+postgres  | 2024-05-20 07:27:02.958 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+postgres  | 2024-05-20 07:27:02.963 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+postgres  | 2024-05-20 07:27:02.970 UTC [66] LOG:  database system was shut down at 2024-05-20 07:27:02 UTC
+postgres  | 2024-05-20 07:27:02.977 UTC [1] LOG:  database system is ready to accept connections
+app-1     | 
+app-1     |   .   ____          _            __ _ _
+app-1     |  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+app-1     | ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+app-1     |  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+app-1     |   '  |____| .__|_| |_|_| |_\__, | / / / /
+app-1     |  =========|_|==============|___/=/_/_/_/
+app-1     |  :: Spring Boot ::                (v3.2.5)
+app-1     | 
+app-1     | 2024-05-20T07:27:04.437Z  INFO 1 --- [springpracticecours] [           main] c.d.s.SpringpracticecoursApplication     : Starting SpringpracticecoursApplication v0.0.1-SNAPSHOT using Java 17-ea with PID 1 (/app/app.jar started by root in /app)
+app-1     | 2024-05-20T07:27:04.451Z  INFO 1 --- [springpracticecours] [           main] c.d.s.SpringpracticecoursApplication     : No active profile set, falling back to 1 default profile: "default"
+app-1     | 2024-05-20T07:27:07.206Z  INFO 1 --- [springpracticecours] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+app-1     | 2024-05-20T07:27:07.295Z  INFO 1 --- [springpracticecours] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 79 ms. Found 1 JPA repository interface.
+app-1     | 2024-05-20T07:27:08.671Z  INFO 1 --- [springpracticecours] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+app-1     | 2024-05-20T07:27:08.701Z  INFO 1 --- [springpracticecours] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+app-1     | 2024-05-20T07:27:08.702Z  INFO 1 --- [springpracticecours] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+app-1     | 2024-05-20T07:27:08.783Z  INFO 1 --- [springpracticecours] [           main] o.a.c.c.C.[.[localhost].[/api/1.0]       : Initializing Spring embedded WebApplicationContext
+app-1     | 2024-05-20T07:27:08.788Z  INFO 1 --- [springpracticecours] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4092 ms
+app-1     | 2024-05-20T07:27:09.223Z  INFO 1 --- [springpracticecours] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+app-1     | 2024-05-20T07:27:09.404Z  INFO 1 --- [springpracticecours] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+app-1     | 2024-05-20T07:27:09.476Z  INFO 1 --- [springpracticecours] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+app-1     | 2024-05-20T07:27:10.115Z  INFO 1 --- [springpracticecours] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+app-1     | 2024-05-20T07:27:10.190Z  INFO 1 --- [springpracticecours] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+app-1     | 2024-05-20T07:27:11.266Z ERROR 1 --- [springpracticecours] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
+app-1     | 
+app-1     | org.postgresql.util.PSQLException: The connection attempt failed.
+app-1     | 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:354) ~[postgresql-42.6.2.jar!/:42.6.2]
+app-1     | 	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54) ~[postgresql-42.6.2.jar!/:42.6.2]
+app-1     | 	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:263) ~[postgresql-42.6.2.jar!/:42.6.2]
+app-1     | 	at org.postgresql.Driver.makeConnection(Driver.java:443) ~[postgresql-42.6.2.jar!/:42.6.2]
+app-1     | 	at org.postgresql.Driver.connect(Driver.java:297) ~[postgresql-42.6.2.jar!/:42.6.2]
+app-1     | 	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-5.0.1.jar!/:na]
+app-1     | 	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359) ~[HikariCP-5.0.1.jar!/:na]
+app-1     | 	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201) ~[HikariCP-5.0.1.jar!/:na]
+app-1     | 	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470) ~[HikariCP-5.0.1.jar!/:na]
+app-1     | 	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561) ~[HikariCP-5.0.1.jar!/:na]
+app-1     | 	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:100) ~[HikariCP-5.0.1.jar!/:na]
+app-1     | 	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-5.0.1.jar!/:na]
+app-1     | 	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:428) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:61) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:276) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:107) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:223) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:191) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:170) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1432) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1503) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1833) ~[spring-beans-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782) ~[spring-beans-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1234) ~[spring-context-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:952) ~[spring-context-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624) ~[spring-context-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.5.jar!/:3.2.5]
+app-1     | 	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.5.jar!/:3.2.5]
+app-1     | 	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.5.jar!/:3.2.5]
+app-1     | 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.5.jar!/:3.2.5]
+app-1     | 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.5.jar!/:3.2.5]
+app-1     | 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.5.jar!/:3.2.5]
+app-1     | 	at com.dyma.springpracticecours.SpringpracticecoursApplication.main(SpringpracticecoursApplication.java:10) ~[!/:0.0.1-SNAPSHOT]
+app-1     | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+app-1     | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[na:na]
+app-1     | 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+app-1     | 	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+app-1     | 	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:91) ~[app.jar:0.0.1-SNAPSHOT]
+app-1     | 	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:53) ~[app.jar:0.0.1-SNAPSHOT]
+app-1     | 	at org.springframework.boot.loader.launch.JarLauncher.main(JarLauncher.java:58) ~[app.jar:0.0.1-SNAPSHOT]
+app-1     | Caused by: java.net.UnknownHostException: postgres
+app-1     | 	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567) ~[na:na]
+app-1     | 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:331) ~[na:na]
+app-1     | 	at java.base/java.net.Socket.connect(Socket.java:630) ~[na:na]
+app-1     | 	at org.postgresql.core.PGStream.createSocket(PGStream.java:243) ~[postgresql-42.6.2.jar!/:42.6.2]
+app-1     | 	at org.postgresql.core.PGStream.<init>(PGStream.java:98) ~[postgresql-42.6.2.jar!/:42.6.2]
+app-1     | 	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:132) ~[postgresql-42.6.2.jar!/:42.6.2]
+app-1     | 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:258) ~[postgresql-42.6.2.jar!/:42.6.2]
+app-1     | 	... 57 common frames omitted
+app-1     | 
+app-1     | 2024-05-20T07:27:11.271Z  WARN 1 --- [springpracticecours] [           main] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata
+app-1     | 
+app-1     | java.lang.NullPointerException: Cannot invoke "org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(java.sql.SQLException, String)" because the return value of "org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.sqlExceptionHelper()" is null
+app-1     | 	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:116) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:276) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:107) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:223) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:191) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:170) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1432) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1503) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1833) ~[spring-beans-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782) ~[spring-beans-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1234) ~[spring-context-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:952) ~[spring-context-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624) ~[spring-context-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.5.jar!/:3.2.5]
+app-1     | 	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.5.jar!/:3.2.5]
+app-1     | 	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.5.jar!/:3.2.5]
+app-1     | 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.5.jar!/:3.2.5]
+app-1     | 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.5.jar!/:3.2.5]
+app-1     | 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.5.jar!/:3.2.5]
+app-1     | 	at com.dyma.springpracticecours.SpringpracticecoursApplication.main(SpringpracticecoursApplication.java:10) ~[!/:0.0.1-SNAPSHOT]
+app-1     | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+app-1     | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[na:na]
+app-1     | 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+app-1     | 	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+app-1     | 	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:91) ~[app.jar:0.0.1-SNAPSHOT]
+app-1     | 	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:53) ~[app.jar:0.0.1-SNAPSHOT]
+app-1     | 	at org.springframework.boot.loader.launch.JarLauncher.main(JarLauncher.java:58) ~[app.jar:0.0.1-SNAPSHOT]
+app-1     | 
+app-1     | 2024-05-20T07:27:11.294Z  WARN 1 --- [springpracticecours] [           main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+pgadmin   | NOTE: Configuring authentication for SERVER mode.
+pgadmin   | 
+pgadmin   | pgAdmin 4 - Application Initialisation
+pgadmin   | ======================================
+pgadmin   | 
+app-1     | 2024-05-20T07:27:12.089Z  INFO 1 --- [springpracticecours] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+app-1     | 2024-05-20T07:27:12.111Z  INFO 1 --- [springpracticecours] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+app-1     | 2024-05-20T07:27:13.113Z ERROR 1 --- [springpracticecours] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
+app-1     | 
+app-1     | org.postgresql.util.PSQLException: The connection attempt failed.
+app-1     | 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:354) ~[postgresql-42.6.2.jar!/:42.6.2]
+app-1     | 	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54) ~[postgresql-42.6.2.jar!/:42.6.2]
+app-1     | 	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:263) ~[postgresql-42.6.2.jar!/:42.6.2]
+app-1     | 	at org.postgresql.Driver.makeConnection(Driver.java:443) ~[postgresql-42.6.2.jar!/:42.6.2]
+app-1     | 	at org.postgresql.Driver.connect(Driver.java:297) ~[postgresql-42.6.2.jar!/:42.6.2]
+app-1     | 	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-5.0.1.jar!/:na]
+app-1     | 	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359) ~[HikariCP-5.0.1.jar!/:na]
+app-1     | 	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201) ~[HikariCP-5.0.1.jar!/:na]
+app-1     | 	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470) ~[HikariCP-5.0.1.jar!/:na]
+app-1     | 	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561) ~[HikariCP-5.0.1.jar!/:na]
+app-1     | 	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:100) ~[HikariCP-5.0.1.jar!/:na]
+app-1     | 	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-5.0.1.jar!/:na]
+app-1     | 	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:428) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:46) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:39) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.tool.schema.internal.exec.ImprovedExtractionContextImpl.getJdbcConnection(ImprovedExtractionContextImpl.java:63) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.tool.schema.extract.spi.ExtractionContext.getQueryResults(ExtractionContext.java:43) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.tool.schema.extract.internal.SequenceInformationExtractorLegacyImpl.extractMetadata(SequenceInformationExtractorLegacyImpl.java:39) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.initializeSequences(DatabaseInformationImpl.java:66) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.<init>(DatabaseInformationImpl.java:60) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.tool.schema.internal.Helper.buildDatabaseInformation(Helper.java:185) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:98) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:286) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:145) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at java.base/java.util.HashMap.forEach(HashMap.java:1425) ~[na:na]
+app-1     | 	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:142) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:315) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:450) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1507) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1833) ~[spring-beans-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782) ~[spring-beans-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1234) ~[spring-context-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:952) ~[spring-context-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624) ~[spring-context-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.5.jar!/:3.2.5]
+app-1     | 	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.5.jar!/:3.2.5]
+app-1     | 	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.5.jar!/:3.2.5]
+app-1     | 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.5.jar!/:3.2.5]
+app-1     | 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.5.jar!/:3.2.5]
+app-1     | 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.5.jar!/:3.2.5]
+app-1     | 	at com.dyma.springpracticecours.SpringpracticecoursApplication.main(SpringpracticecoursApplication.java:10) ~[!/:0.0.1-SNAPSHOT]
+app-1     | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+app-1     | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[na:na]
+app-1     | 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+app-1     | 	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+app-1     | 	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:91) ~[app.jar:0.0.1-SNAPSHOT]
+app-1     | 	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:53) ~[app.jar:0.0.1-SNAPSHOT]
+app-1     | 	at org.springframework.boot.loader.launch.JarLauncher.main(JarLauncher.java:58) ~[app.jar:0.0.1-SNAPSHOT]
+app-1     | Caused by: java.net.UnknownHostException: postgres
+app-1     | 	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567) ~[na:na]
+app-1     | 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:331) ~[na:na]
+app-1     | 	at java.base/java.net.Socket.connect(Socket.java:630) ~[na:na]
+app-1     | 	at org.postgresql.core.PGStream.createSocket(PGStream.java:243) ~[postgresql-42.6.2.jar!/:42.6.2]
+app-1     | 	at org.postgresql.core.PGStream.<init>(PGStream.java:98) ~[postgresql-42.6.2.jar!/:42.6.2]
+app-1     | 	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:132) ~[postgresql-42.6.2.jar!/:42.6.2]
+app-1     | 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:258) ~[postgresql-42.6.2.jar!/:42.6.2]
+app-1     | 	... 61 common frames omitted
+app-1     | 
+app-1     | 2024-05-20T07:27:13.118Z  WARN 1 --- [springpracticecours] [           main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 08001
+app-1     | 2024-05-20T07:27:13.119Z ERROR 1 --- [springpracticecours] [           main] o.h.engine.jdbc.spi.SqlExceptionHelper   : The connection attempt failed.
+app-1     | 2024-05-20T07:27:13.128Z ERROR 1 --- [springpracticecours] [           main] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution [The connection attempt failed.] [n/a]
+app-1     | 2024-05-20T07:27:13.129Z  WARN 1 --- [springpracticecours] [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution [The connection attempt failed.] [n/a]
+app-1     | 2024-05-20T07:27:13.132Z  INFO 1 --- [springpracticecours] [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+app-1     | 2024-05-20T07:27:13.152Z  INFO 1 --- [springpracticecours] [           main] .s.b.a.l.ConditionEvaluationReportLogger : 
+app-1     | 
+app-1     | Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+app-1     | 2024-05-20T07:27:13.178Z ERROR 1 --- [springpracticecours] [           main] o.s.boot.SpringApplication               : Application run failed
+app-1     | 
+app-1     | org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution [The connection attempt failed.] [n/a]
+app-1     | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786) ~[spring-beans-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1234) ~[spring-context-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:952) ~[spring-context-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624) ~[spring-context-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.5.jar!/:3.2.5]
+app-1     | 	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.5.jar!/:3.2.5]
+app-1     | 	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.5.jar!/:3.2.5]
+app-1     | 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.5.jar!/:3.2.5]
+app-1     | 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.5.jar!/:3.2.5]
+app-1     | 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.5.jar!/:3.2.5]
+app-1     | 	at com.dyma.springpracticecours.SpringpracticecoursApplication.main(SpringpracticecoursApplication.java:10) ~[!/:0.0.1-SNAPSHOT]
+app-1     | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+app-1     | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[na:na]
+app-1     | 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+app-1     | 	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+app-1     | 	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:91) ~[app.jar:0.0.1-SNAPSHOT]
+app-1     | 	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:53) ~[app.jar:0.0.1-SNAPSHOT]
+app-1     | 	at org.springframework.boot.loader.launch.JarLauncher.main(JarLauncher.java:58) ~[app.jar:0.0.1-SNAPSHOT]
+app-1     | Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution [The connection attempt failed.] [n/a]
+app-1     | 	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421) ~[spring-orm-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1833) ~[spring-beans-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782) ~[spring-beans-6.1.6.jar!/:6.1.6]
+app-1     | 	... 23 common frames omitted
+app-1     | Caused by: org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution [The connection attempt failed.] [n/a]
+app-1     | 	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:100) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:74) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:39) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.tool.schema.internal.exec.ImprovedExtractionContextImpl.getJdbcConnection(ImprovedExtractionContextImpl.java:63) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.tool.schema.extract.spi.ExtractionContext.getQueryResults(ExtractionContext.java:43) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.tool.schema.extract.internal.SequenceInformationExtractorLegacyImpl.extractMetadata(SequenceInformationExtractorLegacyImpl.java:39) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.initializeSequences(DatabaseInformationImpl.java:66) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.<init>(DatabaseInformationImpl.java:60) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.tool.schema.internal.Helper.buildDatabaseInformation(Helper.java:185) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:98) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:286) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:145) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at java.base/java.util.HashMap.forEach(HashMap.java:1425) ~[na:na]
+app-1     | 	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:142) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:315) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:450) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1507) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.6.jar!/:6.1.6]
+app-1     | 	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.6.jar!/:6.1.6]
+app-1     | 	... 27 common frames omitted
+app-1     | Caused by: org.postgresql.util.PSQLException: The connection attempt failed.
+app-1     | 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:354) ~[postgresql-42.6.2.jar!/:42.6.2]
+app-1     | 	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54) ~[postgresql-42.6.2.jar!/:42.6.2]
+app-1     | 	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:263) ~[postgresql-42.6.2.jar!/:42.6.2]
+app-1     | 	at org.postgresql.Driver.makeConnection(Driver.java:443) ~[postgresql-42.6.2.jar!/:42.6.2]
+app-1     | 	at org.postgresql.Driver.connect(Driver.java:297) ~[postgresql-42.6.2.jar!/:42.6.2]
+app-1     | 	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-5.0.1.jar!/:na]
+app-1     | 	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359) ~[HikariCP-5.0.1.jar!/:na]
+app-1     | 	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201) ~[HikariCP-5.0.1.jar!/:na]
+app-1     | 	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470) ~[HikariCP-5.0.1.jar!/:na]
+app-1     | 	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561) ~[HikariCP-5.0.1.jar!/:na]
+app-1     | 	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:100) ~[HikariCP-5.0.1.jar!/:na]
+app-1     | 	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-5.0.1.jar!/:na]
+app-1     | 	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:428) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:46) ~[hibernate-core-6.4.4.Final.jar!/:6.4.4.Final]
+app-1     | 	... 47 common frames omitted
+app-1     | Caused by: java.net.UnknownHostException: postgres
+app-1     | 	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567) ~[na:na]
+app-1     | 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:331) ~[na:na]
+app-1     | 	at java.base/java.net.Socket.connect(Socket.java:630) ~[na:na]
+app-1     | 	at org.postgresql.core.PGStream.createSocket(PGStream.java:243) ~[postgresql-42.6.2.jar!/:42.6.2]
+app-1     | 	at org.postgresql.core.PGStream.<init>(PGStream.java:98) ~[postgresql-42.6.2.jar!/:42.6.2]
+app-1     | 	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:132) ~[postgresql-42.6.2.jar!/:42.6.2]
+app-1     | 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:258) ~[postgresql-42.6.2.jar!/:42.6.2]
+app-1     | 	... 61 common frames omitted
+app-1     | 
+[Kapp-1 exited with code 1
+pgadmin   | postfix/postlog: starting the Postfix mail system
+pgadmin   | [2024-05-20 07:27:17 +0000] [1] [INFO] Starting gunicorn 20.1.0
+pgadmin   | [2024-05-20 07:27:17 +0000] [1] [INFO] Listening at: http://[::]:80 (1)
+pgadmin   | [2024-05-20 07:27:17 +0000] [1] [INFO] Using worker: gthread
+pgadmin   | [2024-05-20 07:27:17 +0000] [116] [INFO] Booting worker with pid: 116
+pgadmin   | [2024-05-20 07:38:33 +0000] [1] [INFO] Handling signal: term
+postgres  | 2024-05-20 07:38:33.859 UTC [1] LOG:  received fast shutdown request
+postgres  | 2024-05-20 07:38:33.860 UTC [1] LOG:  aborting any active transactions
+postgres  | 2024-05-20 07:38:33.862 UTC [1] LOG:  background worker "logical replication launcher" (PID 72) exited with exit code 1
+postgres  | 2024-05-20 07:38:33.862 UTC [67] LOG:  shutting down
+postgres  | 2024-05-20 07:38:33.872 UTC [1] LOG:  database system is shut down
+[Kpostgres exited with code 0
+pgadmin   | [2024-05-20 07:38:34 +0000] [116] [INFO] Worker exiting (pid: 116)
+pgadmin   | [2024-05-20 07:38:35 +0000] [1] [INFO] Shutting down: Master
+[Kpgadmin exited with code 0

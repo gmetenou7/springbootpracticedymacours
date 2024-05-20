@@ -81,7 +81,7 @@ public class PlayerController {
             )
     })
     @PostMapping
-    public PlayerToSave createPlayer(@Valid @RequestBody PlayerToSave player) {
+    public Player createPlayer(@Valid @RequestBody PlayerToSave player) {
         return playerService.createPlayer(player);
     }
 

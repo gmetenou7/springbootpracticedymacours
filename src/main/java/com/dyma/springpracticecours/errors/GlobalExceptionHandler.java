@@ -1,5 +1,6 @@
 package com.dyma.springpracticecours.errors;
 
+import com.dyma.springpracticecours.errors.specific.AccessDeniedException;
 import com.dyma.springpracticecours.errors.specific.ClientErrorException;
 import com.dyma.springpracticecours.errors.specific.ResourceNotFoundException;
 import com.dyma.springpracticecours.errors.specific.ServerErrorException;
@@ -23,6 +24,13 @@ import java.util.Map;
 @ControllerAdvice
 @RestControllerAdvice
 public class GlobalExceptionHandler {
+
+    @ExceptionHandler({ AccessDeniedException.class })
+    @ResponseStatus(HttpStatus.FORBIDDEN)
+    public ResponseEntity<ErrorResponse> handleAccessDeniedException(AccessDeniedException ex, WebRequest request) {
+        ErrorResponse errorResponse = new ErrorResponse(HttpStatus.FORBIDDEN.value(), ex.getMessage());
+        return new ResponseEntity<>(errorResponse, HttpStatus.FORBIDDEN);
+    }
 
     @ExceptionHandler(ClientErrorException.class)
     public ResponseEntity<ErrorResponse> handleClientErrorException(ClientErrorException ex, WebRequest request) {

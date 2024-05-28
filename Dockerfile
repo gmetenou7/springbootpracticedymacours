@@ -14,10 +14,10 @@ RUN mvn dependency:go-offline -B
 COPY src ./src
 
 # Construire l'application
-RUN mvn clean install -DskipTests
+RUN mvn -f pom.xml clean package install -DskipTests -Pprod
 
 # Utiliser une image plus légère pour l'exécution
-FROM openjdk:17-jdk-alpine
+FROM openjdk:17-jdk-alpine AS run
 
 # Définir le répertoire de travail dans le conteneur
 WORKDIR /app

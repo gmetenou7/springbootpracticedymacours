@@ -23,7 +23,10 @@ import java.util.List;
 public class PlayerController {
 
     @Autowired
-    private PlayerService playerService;
+    private final PlayerService playerService;
+    public PlayerController(PlayerService playerService) {
+        this.playerService = playerService;
+    }
 
     @Operation(summary = "Finds player", description = "fetch all player")
     @ApiResponses(value = {
@@ -35,6 +38,9 @@ public class PlayerController {
                     )}
             ),
             @ApiResponse(responseCode = "404", description = "Not Found : Ressource non trouvée.",
+                    content = {@Content(mediaType = "application/json",
+                            schema = @Schema(implementation = Error.class))}),
+            @ApiResponse(responseCode = "403", description = "This user not authorized to perform this action",
                     content = {@Content(mediaType = "application/json",
                             schema = @Schema(implementation = Error.class))})
     })
@@ -54,6 +60,9 @@ public class PlayerController {
                     )}
             ),
             @ApiResponse(responseCode = "404", description = "Not Found : Ressource non trouvée.",
+                    content = {@Content(mediaType = "application/json",
+                            schema = @Schema(implementation = Error.class))}),
+            @ApiResponse(responseCode = "403", description = "This user not authorized to perform this action",
                     content = {@Content(mediaType = "application/json",
                             schema = @Schema(implementation = Error.class))})
     })
@@ -81,7 +90,10 @@ public class PlayerController {
             @ApiResponse(responseCode = "500", description = "Bad Request : Une erreur interne du serveur s'est produite.",
                     content = {@Content(mediaType = "application/json",
                             schema = @Schema(implementation = Error.class)
-                    )})
+                    )}),
+            @ApiResponse(responseCode = "403", description = "This user not authorized to perform this action",
+                    content = {@Content(mediaType = "application/json",
+                            schema = @Schema(implementation = Error.class))})
     })
     @PostMapping
     public Player createPlayer(@Valid @RequestBody PlayerToSave player) {
@@ -105,7 +117,10 @@ public class PlayerController {
                     content = {@Content(mediaType = "application/json",
                             schema = @Schema(implementation = Error.class)
                     )}
-            )
+            ),
+            @ApiResponse(responseCode = "403", description = "This user not authorized to perform this action",
+                    content = {@Content(mediaType = "application/json",
+                            schema = @Schema(implementation = Error.class))})
     })
     @PutMapping("{lastName}")
     public Player updatePlayer(@Valid @RequestBody PlayerToSave player, @PathVariable("lastName") String lastName) {
@@ -119,7 +134,10 @@ public class PlayerController {
             @ApiResponse(responseCode = "404", description = "Player with specified last name was not found.",
                 content = {@Content(mediaType = "application/json",
                 schema = @Schema(implementation = Error.class))}
-            )
+            ),
+            @ApiResponse(responseCode = "403", description = "This user not authorized to perform this action",
+                    content = {@Content(mediaType = "application/json",
+                            schema = @Schema(implementation = Error.class))})
     })
     @DeleteMapping("{lastName}")
     public  String deletePlayerByLastName(@PathVariable("lastName") String lastName) {
